@@ -15,6 +15,28 @@ $(document).ready(function(){
          $('html').animate({scrollTop: 0});
      });
 
+     $('.carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true, // adicionando autoplay
+        autoplayTimeout:2000, // define o tempo de transição do slide
+        autoplayHoverPause:true,
+        autoplaySpeed: 500, // 2 segundos
+     
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+      })
+
+
      var typed = new Typed(".typing", {
          strings:["Amigos do ambiente", "Sustentaveis"],
          typeSpeed:100,

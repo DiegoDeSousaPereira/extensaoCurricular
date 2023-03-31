@@ -343,8 +343,64 @@ section .title::after{
     width: 42%;
 }
 /*  sessão equipe  */
+
+.carousel {
+    overflow: hidden;
+  }
+  
+  .owl-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .owl-carousel .item {
+    flex: 0 0 auto;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .carousel-control.left {
+    left: 0;
+  }
+  
+  .carousel-control.right {
+    right: 0;
+  }
+  
+  .owl-carousel .owl-item {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .owl-carousel .owl-item.active {
+    transform: translateX(0);
+  }
+  
+  .owl-carousel .owl-item.prev {
+    transform: translateX(-100%);
+  }
+  
+  .owl-carousel .owl-item.next {
+    transform: translateX(100%);
+  }
+
+
+
+
+
+
+
+
+
 .teams .title::after{
-    content: "Especializada";
+    content: "Time de S.I";
 }
 .teams .carousel .card{
     background: #222;

@@ -183,9 +183,12 @@ section .title::after{
 }
 
 /*  sessão sobre  */
+p{
+    font-size: 22px;
+}
 
 .about .title::after{
-    content: "ecoTech";
+    content: "EcoTech";
 }
 .about .about-content .left{
     width: 45%;
@@ -208,9 +211,9 @@ section .title::after{
     display: inline-block;
     background: #00804b;
     color: #fff;
-    font-size: 100px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 20px 60px;
+    padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #00804b;
@@ -238,7 +241,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "ecoTech";
+    content: "EcoTech";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -266,7 +269,7 @@ section .title::after{
     color: #fff;
 }
 .services .serv-content .card .text{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -328,20 +331,21 @@ section .title::after{
     background: #00804b;
 }
 .skills .skills-content .right .html::before{
-    width: 93%;
+    width: 95%;
 }
 .skills .skills-content .right .css::before{
     width: 85%;
 }
 .skills .skills-content .right .js::before{
-    width: 87%;
+    width: 90%;
 }
 .skills .skills-content .right .php::before{
-    width: 47%;
+    width: 80%;
 }
 .skills .skills-content .right .mysql::before{
-    width: 42%;
+    width: 70%;
 }
+
 /*  sessão equipe  */
 
 .carousel {
